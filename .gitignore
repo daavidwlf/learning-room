@@ -1,0 +1,43 @@
+# --- Unity ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+
+# Unity generated files
+*.pidb.meta
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Crash/Log files
+sysinfo.txt
+*.stacktrace
+
+# Rider
+.idea/
+*.sln.iml
+
+# Unity Cache
+*/__preview__/
+
+# Web Project
+Needle/learning-room-web/node_modules/
+Needle/learning-room-web/dist/
+Needle/learning-room-web/.cache/
+Needle/learning-room-web/.parcel-cache/
+Needle/learning-room-web/.turbo/
+
+# Log files
+*.log
+
+# Mac and system files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
