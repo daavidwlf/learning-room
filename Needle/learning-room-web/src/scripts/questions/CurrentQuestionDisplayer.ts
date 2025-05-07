@@ -1,8 +1,6 @@
-import { Behaviour } from "@needle-tools/engine";
 import { GlobalState } from "../globals/GlobalState";
 import content from '../../content/content.json';
 import { TextComponent } from "../utils/Text";
-import { QustionsType } from "../types/Types";
 
 export class CurrentQuestionDisplayer extends TextComponent {
     start(): void {
@@ -22,4 +20,3 @@ export class CurrentQuestionDisplayer extends TextComponent {
         this.start()
     }
 }
-    

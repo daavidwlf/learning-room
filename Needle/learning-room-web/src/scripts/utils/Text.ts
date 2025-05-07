@@ -1,5 +1,4 @@
 import { Behaviour, Text } from "@needle-tools/engine";
-import text from "../../content/content.json"
 
 
 export class TextComponent extends Behaviour {
@@ -8,7 +7,7 @@ export class TextComponent extends Behaviour {
         const textComponent = this.gameObject.getComponent(Text)
 
         if(!textComponent) {
-            console.warn("Text component found",  this.gameObject.name);
+            console.warn("Text component not found: ",  this.gameObject.name);
             return
         }
         

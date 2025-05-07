@@ -21,5 +21,12 @@ MonoBehaviour:
     Projects:
     - ProjectPath: Needle/learning-room-web
     BuilderScene: 
+  - Path: Assets/Scenes/Entry.unity
+    Projects: []
+    BuilderScene: 
+  - Path: Assets/Scenes/Root.unity
+    Projects:
+    - ProjectPath: Needle/learning-room-web
+    BuilderScene: 
   Projects:
   - ProjectPath: Needle/learning-room-web
