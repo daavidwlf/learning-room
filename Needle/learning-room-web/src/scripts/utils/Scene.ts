@@ -13,9 +13,16 @@ export class SceneController extends URLContext {
             return;
         }
 
-        console.log(this.sceneSwitcher?.currentlyLoadedScene)
+        //TODO: prevent double loading
 
+        const sceneName = this.getPathElement(1);
 
+        if(!sceneName) {
+            this.goToRootScene();
+            return
+        }
+
+       this.goToScene(sceneName);
     }
 
     private goToScene(sceneName: string) {
